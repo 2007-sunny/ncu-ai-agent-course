@@ -21,3 +21,14 @@ AI Agent 課程學習與實作紀錄。
 下一步是測試：在沒有新證據的多輪對話中，模型能否維持假設的原有狀態；加入獨立量測證據後，又能否合理更新結論。第二版的效果尚待驗證。
 
 [討論過程（ChatGPT 分享連結）](https://chatgpt.com/share/6ab009b0-4614-83e8-8153-21b5d2bc62cd)
+
+## 原始紀錄
+
+| 檔案 | 用途 |
+| --- | --- |
+| [應用 AI 網站題目建議](docs/references/應用AI網站題目建議.pdf) | 專案動機、Skill 設計演變與討論 |
+| [BNC 線時間差估算](docs/references/BNC線時間差估算.pdf) | 物理實驗背景與後續量測討論 |
+| [原始 Gemini 對話](<docs/references/BNC 線材 29 MHz 反射凹陷分析 - Google Gemini.pdf>) | 未使用 Skill 的對照紀錄 |
+| [v0.1 自訂 Gem 對話](<docs/references/探討 29 MHz BNC 線反射陷波 - Google Gemini.pdf>) | 使用 Experimental Physics Reasoning v0.1 的測試紀錄 |
+
+以上 PDF 保留原始對話內容；其中 AI 提出的解釋不代表已驗證的實驗結論。
