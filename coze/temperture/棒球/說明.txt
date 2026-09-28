@@ -1,0 +1,5 @@
+T01,T05,T08這三個檔案是指chatgpt-4o mini在temperture 0.1, 0.5, 0.8 測試出來的回答
+其中，T01, T05因為失誤有混入chatgpt-4o的回答。
+chatgpt4o_mini_T05, gemini_flash2_0_T05 是使用來做模型比較的，因為coze未提供其他低價模型，所以無法做出第三家。
+另外在gemini_flash2_0_T05中因為Response max length問題最後調整至8192即coze上限，為了保證對照組參數相同所以T05才需要另外開文檔。
+但經過五次問答我發現respoend max length 並不會影響模型使用的token數，即使上限射到8192chatgpt-4o mini仍然維持約1000tokens每個問題。
