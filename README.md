@@ -6,6 +6,7 @@ AI Agent 課程學習與實作紀錄。
 | --- | --- | --- |
 | Unit 0 | 初步構想、使用場景與學習紀錄 | [docx](docs/Unit0_AI_Agent_Skill_學習文件.docx) |
 | Unit 1 | 大腦核心：LLM 選擇與參數設定 | [docx](docs/Unit1_LLM參數與模型選擇_學習文件.docx)／[pdf](docs/Unit1_LLM參數與模型選擇_學習文件.pdf) |
+| Unit 2 | Prompt 的應用場景、管理流程、安全防護 | [docx](docs/Unit2_Prompt應用與防護_學習文件.docx)／[pdf](docs/Unit2_Prompt應用與防護_學習文件.pdf)／[中文學習手冊](docs/Unit2_Prompt學習手冊.html) |
 
 ## 目前方向
 
