@@ -16,14 +16,16 @@ CLAUDE.md
 # Course syllabus (instructor material)
 115-1_中央大學AI-Agent課綱.xlsx
 
-# Duplicates of docs/references/ kept at the root as local experiment records
-/BNC線時間差估算.pdf
-/BNC 線材 29 MHz 反射凹陷分析 - Google Gemini.pdf
-/探討 29 MHz BNC 線反射陷波 - Google Gemini.pdf
 # Grading analysis (contains classmates' submissions)
 評分分析.md
 
 # Obsidian settings and local notes
 .obsidian/
-coze/unit 2 寫作指引.md
+unit2/unit2_寫作指引.md
 /Pasted image *.png
+
+# Note screenshots (local only; reports in unitN/docs/ carry the figures)
+unit*/images/
+.vscode/
+# Office lock files
+~$*

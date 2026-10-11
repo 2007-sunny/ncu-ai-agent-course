@@ -6,6 +6,7 @@ Coze 的 Prompt Management 儲存時出現「System exception, please try again 
 |---|---|---|---|
 | v1 | `客服_v1.txt` | 完整客服 prompt：角色、語氣、商品、政策、規則、範例（XML 拆解） | 五題測試腳本全部符合規則 |
 | v2 | `客服_v2_salted.txt` | 規則改用加鹽標籤 `<rules_x7k29>`，加入攻擊偵測規則與固定拒答句 | 三種注入攻擊皆以固定句拒答 |
+| v3 | `客服_v3_memory.txt` | Unit 3：加入 `<memory_rules>`、`<current_state>`，rules 第 1 條改為遵守所有區塊 | 變數會更新，但 identity_log 仍不寫入 → 改用 chatflow；之後 Agent prompt 刪除 `<memory_rules>` |
 
 用 Git 管理 prompt 的好處：
 - **版本追蹤**：`git log` 看得到每次改了什麼、為什麼改。
